@@ -31,5 +31,5 @@ ______________________
 
 *For clone this repositery, use [Git](https://git-scm.com/downloads)*
 
-*`git clone --recursive https://github.com/ghost-eshop/Ghost-Eshop-Alternative-3DS`*
+*`git clone --recursive https://github.com/Anonyku/eShop-Anony`*
 </details></details>
