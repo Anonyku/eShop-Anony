@@ -1,0 +1,24 @@
+--atlas -f rgba -z auto
+
+sprites/add.png
+sprites/arrow.png
+sprites/checked.png
+sprites/delete.png
+sprites/download.png
+sprites/info.png
+sprites/noIcon.png
+sprites/qr_code.png
+sprites/search.png
+sprites/settings.png
+sprites/sheet.png
+sprites/sort.png
+sprites/sort_checked.png
+sprites/sort_unchecked.png
+sprites/toggle_off.png
+sprites/toggle_on.png
+sprites/unchecked.png
+sprites/universal-updater.png
+sprites/universal-core.png
+sprites/update.png
+sprites/update_app.png
+sprites/update_filter.png
