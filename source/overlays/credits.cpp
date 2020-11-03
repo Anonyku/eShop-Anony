@@ -42,10 +42,7 @@ void Overlays::ShowCredits() {
 		GFX::DrawSprite(sprites_universal_updater_idx, 220, 30);
 		Gui::DrawStringCentered(0, 1, 0.7f, TEXT_COLOR, "Ghost Eshop - " + Lang::get("CREDITS"));
 
-		Gui::DrawString(10, 30, 0.5f, TEXT_COLOR, "- Ghost0159 (Main Creator)");
-		Gui::DrawString(10, 50, 0.5f, TEXT_COLOR, "- Stereo18 (Co-Develloper)");
-		Gui::DrawString(10, 70, 0.5f, TEXT_COLOR, "- Anonyku (Host)");
-		Gui::DrawString(10, 90, 0.5f, TEXT_COLOR, "- Velta ! (Image)");
+		Gui::DrawString(10, 30, 0.5f, TEXT_COLOR, "- Anonyku (Host)");
 		Gui::DrawString(10, 150, 0.5f, TEXT_COLOR, Lang::get("CONTRIBUTOR_TRANSLATORS"), 210);
 		Gui::DrawString(10, 197, 0.5f, TEXT_COLOR, Lang::get("GITHUB"), 390);
 
