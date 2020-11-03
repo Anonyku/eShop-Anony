@@ -757,7 +757,7 @@ bool IsUUUpdateAvailable() {
 
 	CURL *hnd = curl_easy_init();
 
-	ret = setupContext(hnd, "https://api.github.com/repos/Bot-Ghost/GHA/releases/latest");
+	ret = setupContext(hnd, "https://api.github.com/repos/Anonyku/eShop-Anony/releases/latest");
 	if (ret != 0) {
 		socExit();
 		free(result_buf);
@@ -819,7 +819,7 @@ extern std::string _3dsxPath;
 	Execute U-U update action.
 */
 void UpdateAction() {
-	if (ScriptUtils::downloadRelease("Bot-Ghost/GHA", (is3DSX ? "GhostEshop.3dsx" : "GhostEshop.cia"),
+	if (ScriptUtils::downloadRelease("Anonyku/GHA", (is3DSX ? "GhostEshop.3dsx" : "GhostEshop.cia"),
 	(is3DSX ? _3dsxPath : "sdmc:/GhostEshop.cia"),
 	false, Lang::get("DONLOADING_UNIVERSAL_UPDATER")) == 0) {
 
